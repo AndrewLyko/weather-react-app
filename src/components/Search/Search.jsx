@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 
-function Search({searchValue, setSearchValue}) {
+function Search({searchValue, setSearchValue, handleSearch}) {
 
     const searchRef = useRef(null);
 
@@ -39,6 +39,7 @@ function Search({searchValue, setSearchValue}) {
                 onFocus={handleFocus}
                 onBlur={handleBlur}
             />
+            <button className="search__btn" onClick={handleSearch}>Search</button>
         </div>
     );
 }
