@@ -15,7 +15,7 @@
   }
 
   &:hover, &.focus {
-    .search__lbl{
+    .search__lbl {
       font-size: rem(8px);
       top: rem(6px);
 
@@ -28,5 +28,6 @@
     border: rem(1px) solid rgba(255, 255, 255, 0.23);
     background: rgb(0, 30, 60);
     margin: rem(16px);
+    color: rgba(255, 255, 255, 09)
   }
 }
